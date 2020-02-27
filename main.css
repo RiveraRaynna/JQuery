@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CSS Document */
+	{
+  box-sizing: border-box;
+}
+	body{
+		background-color:green;
+}
+	#container{
+		width:800px;
+		height:600px;
+		background-color:azure;
+		margin: 0 auto;
+	}
+	header{
+		height:100px;
+		background-color:cornflowerblue;
+	}
+	.secLeft{
+		height:460px;
+		width:370px;
+		background-color:beige;
+		margin: 30px 10px 20px 20px;
+		float: left;
+	}
+	.secRight{
+		height:460px;
+		width:370px;
+		background-color:beige;
+		margin: 30px 20px 20px 10px;
+		float: right;
+	}
+	footer{
+		height:20px;
+		width:auto;
+		background-color: cornflowerblue;
+		}

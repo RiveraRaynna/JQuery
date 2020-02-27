@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fun Games</title>
+<style></style>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+ <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	
+	<script>
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );
+  </script>
+<link href="main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div ID="container">
+	<header></header>
+	<section class="secLeft">
+	<div id="draggable" class="ui-widget-content">
+  	<p>Drag me around</p>
+	</div>
+	</section>
+	<section class="secRight"></section>
+	<footer></footer>
+	</div>
+</body>
+</html>
