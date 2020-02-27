@@ -1,41 +1,28 @@
 <!doctype html>
 <html>
 <head>
-<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
 <meta charset="UTF-8">
-<title>Fun Games</title>
-<style></style>
-<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-	
-	<script>
+<title>Vacation Rentals</title>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+ 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
   $( function() {
-    $( "#draggable" ).draggable();
+    $( "#datepicker" ).datepicker();
   } );
-	$( function() {
-    $( "#draggableTwo" ).draggable();
-  } );
-	$( function() {
-    $( "#draggableThree" ).draggable();
-  } );
-  </script>
+</script>
 <link href="main.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 	<div ID="container">
-	<header> Drag & Drop: Dog Breeds</header>
+	<header> Vacation Rental Homes </header>
+		<nav> Home Rentals Cars Contact Us</nav>
 		<section class="secLeft">
-	<div id="draggable" class="ui-widget-content">
-  		<p><h1>Pug</h1></p></div>
-	<div id="draggableTwo" class="ui-widget-content">
-		<p><h1>Dalmation</h1></p></div>
-	<div id="draggableThree" class="ui-widget-content">
-		<p><h1>Chihuahua</h1></p></div>
-		
+		Date: <div id="datepicker"></div>
 	</section>
 	<section class="secRight"></section>
-	<footer></footer>
+	<footer>Super Dogs Emporium Copyright LLC ©</footer>
 	</div>
 </body>
 </html>

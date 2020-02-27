@@ -4,38 +4,43 @@
   box-sizing: border-box;
 }
 	body{
-		background-color:green;
+		background-color:black;
 }
 	#container{
 		width:800px;
 		height:600px;
-		background-color:azure;
+		background-color:darkgrey;
 		margin: 0 auto;
 	}
 	header{
-		height:100px;
-		background-color:cornflowerblue;
-		font-family: 'Fredericka the Great', ;
+		height:80px;
+		background-color:darkgrey;
+		font-family: 'Fredericka the Great';
 		font-size: 60px;
 		color: black;
 		text-align: center;	
 	}
 	.secLeft{
 		height:460px;
-		width:370px;
-		background-color:beige;
+		width:330px;
+		background-color:white;
 		margin: 30px 10px 20px 20px;
 		float: left;
+		padding: 10px 20px 10px 20px;
+		align-items: center;
 	}
 	.secRight{
 		height:460px;
-		width:370px;
-		background-color:beige;
-		margin: 30px 20px 20px 10px;
+		width:330px;
+		background-color:white;
+		margin: 30px 10px 20px 20px;
+		padding: 10px 20px 10px 20px;
 		float: right;
 	}
 	footer{
 		height:20px;
-		width:auto;
-		background-color: cornflowerblue;
+		width:800px;
+		background-color: black;
+		color:white;
+		float:left;
 		}
