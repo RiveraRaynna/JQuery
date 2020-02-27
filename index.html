@@ -11,6 +11,12 @@
   $( function() {
     $( "#draggable" ).draggable();
   } );
+	$( function() {
+    $( "#draggableTwo" ).draggable();
+  } );
+	$( function() {
+    $( "#draggableThree" ).draggable();
+  } );
   </script>
 <link href="main.css" rel="stylesheet" type="text/css">
 </head>
@@ -18,10 +24,14 @@
 <body>
 	<div ID="container">
 	<header></header>
-	<section class="secLeft">
+		<section class="secLeft">
 	<div id="draggable" class="ui-widget-content">
-  	<p>Drag me around</p>
-	</div>
+  		<p><h1>Pug</h1></p></div>
+	<div id="draggableTwo" class="ui-widget-content">
+		<p><h1>Dalmation</h1></p></div>
+	<div id="draggableTwo" class="ui-widget-content">
+		<p><h1>Chihuahua</h1></p></div>
+		
 	</section>
 	<section class="secRight"></section>
 	<footer></footer>
